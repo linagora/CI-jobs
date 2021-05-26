@@ -34,7 +34,7 @@ repositories.each {
                 github {
                     id(repo)
                     credentialsId('github')
-                    repoOwner('OpenPaaS-Suite')
+                    repoOwner('linagora')
                     repository(repo)
                     repositoryUrl('')
                     configuredByUrl(false)
@@ -81,7 +81,7 @@ repositories.each {
   }
 }
 
-listView('OpenPaas-Suite') {
+listView('linagora') {
   jobs {
     names(repositories.toArray(new String[repositories.size()]))
   }
