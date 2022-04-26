@@ -54,7 +54,7 @@ repositories.each {
                     buildRegularBranches()
                     buildTags {
                         atLeastDays '-1'
-                        atMostDays '-1'
+                        atMostDays '365'
                     }
                 }
             }
